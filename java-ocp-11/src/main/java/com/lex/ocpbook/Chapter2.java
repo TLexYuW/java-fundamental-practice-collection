@@ -1,6 +1,8 @@
 package com.lex.ocpbook;
 
 
+import java.util.List;
+
 /**
  * @author : LEX_YU
  * @date : 07/02/2023 10:32 pm
@@ -120,13 +122,96 @@ public class Chapter2 {
         } while (true);
         System.out.println(race);
          */
+        // 10.
+        /*
+        int[] circus = {1,2,3,4,5};
+        for (int i=circus.length-1; i>=0; i--)
+            System.out.print(circus[i]);
+         */
+        // 11.
+        /*
+        var bottles = List.of("glass", "plastic", "can");
+        for (int type = 1; type < bottles.size();) {
+            System.out.print(bottles.get(type) + "-");
+            if(type < bottles.size()) break;
+        }
+        System.out.print("end");
+         */
+        // 12.
+        /*
+        final var GOOD = 100;
+        var score = 10;
+        switch (score) {
+            default:
+                1 :System.out.print("1-");
+                -1 :System.out.print("2-");
+                break;
+                4, 5 :System.out.print("3-");
+                6 :System.out.print("4-");
+                9 :System.out.print("5-");
+        }
+         */
+        /*
+        final var GOOD = 100;
+        var score = 10;
+        switch (score) {
+            default:
+            case 1:
+                System.out.print("1-");
+            case -1:
+                System.out.print("2-");
+                break;
+            case 4, 5:
+                System.out.print("3-");
+            case 6:
+                System.out.print("4-");
+            case 9:
+                System.out.print("5-");
+        }
+         */
+        // 13.
+        /*
+        int pterodactyl = 8;
+        long triceratops = 3;
+        if(pterodactyl % 3 > 1 + 1)
+            triceratops++;
+        triceratops--;
+        System.out.print(triceratops);
+         */
+        // 14.
+        /*
+        int colorOfRainbow = 10;
+        ____ red = 5;
+        switch (colorOfRainbow) {
+            default:
+                System.out.print("Home");
+                break;
+            case red:
+                System.out.print("Away");
+        }
+         */
     }
-// 6.
+
+    // 6.
     /*
     void dance() {
         var singer = 0;
         while (singer)
             System.out.print(singer++);
+    }
+     */
+    // 15.
+    /*
+    public void magic() {
+        do {
+            int trick = 0;
+            LOOP:
+            do {
+                trick++;
+            } while (trick < 2--);
+            continue LOOP;
+        } while (1 > 2);
+        System.out.println(trick);
     }
      */
 }
