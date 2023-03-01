@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lex.practice</groupId>
-    <artifactId>java-oop</artifactId>
+    <artifactId>java-tutorial</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
