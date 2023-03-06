@@ -1,4 +1,4 @@
-package com.lex.practice.single.server;
+package com.lex.practice.tcp.single.server;
 
 import java.io.*;
 import java.net.ServerSocket;

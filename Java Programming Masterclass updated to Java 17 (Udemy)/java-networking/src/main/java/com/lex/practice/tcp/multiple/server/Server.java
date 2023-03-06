@@ -1,13 +1,8 @@
-package com.lex.practice.multiple.server;
+package com.lex.practice.tcp.multiple.server;
 
-import com.lex.practice.multiple.client.Echoer;
+import com.lex.practice.tcp.multiple.client.Echoer;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
-import java.net.Socket;
 
 /**
  * @author : LEX_YU
@@ -15,7 +10,7 @@ import java.net.Socket;
  * Server use I/O send and receive data from client
  * can make multiple client connected
  */
-public class Main {
+public class Server {
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(8888)) {
             while (true) {

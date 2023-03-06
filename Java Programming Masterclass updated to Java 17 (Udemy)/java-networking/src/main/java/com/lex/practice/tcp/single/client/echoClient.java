@@ -1,4 +1,4 @@
-package com.lex.practice.multiple.client;
+package com.lex.practice.tcp.single.client;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
