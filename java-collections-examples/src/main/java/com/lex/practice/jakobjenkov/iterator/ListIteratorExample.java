@@ -1,4 +1,4 @@
-package com.lex.practice.iterator;
+package com.lex.practice.jakobjenkov.iterator;
 
 import java.util.ArrayList;
 import java.util.List;
