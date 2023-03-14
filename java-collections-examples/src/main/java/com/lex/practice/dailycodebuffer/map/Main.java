@@ -1,7 +1,8 @@
-package com.lex.practice.jakobjenkov.map;
+package com.lex.practice.dailycodebuffer.map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author : LEX_YU
