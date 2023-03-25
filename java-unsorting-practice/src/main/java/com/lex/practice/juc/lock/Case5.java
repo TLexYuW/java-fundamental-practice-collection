@@ -13,43 +13,39 @@ import java.util.concurrent.locks.StampedLock;
  * @date : 24/03/2023
  */
 public class Case5 {
-    public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        StampedLock lock = new StampedLock();
-        ExecutorService executorService = Executors.newFixedThreadPool(3);
+	public static void main(String[] args) {
+		StampedLock lock = new StampedLock();
+		ExecutorService executorService = Executors.newFixedThreadPool(2);
 
-        Runnable writeTask = () -> {
-            long stamp = lock.writeLock();
-            System.out.println("writeTask: " + Thread.currentThread().getName());
-            try {
-                list.add("Things");
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                System.out.println("err");
-            } finally {
-                System.out.println(stamp);
-                lock.unlockWrite(stamp);
-            }
-        };
+		executorService.submit(() -> {
+           long stamp = lock.tryOptimisticRead();
+		   try {
+			   System.out.println("Optimistic Lock Valid: " +  lock.validate(stamp));
+			   Thread.sleep(2000);
+			   System.out.println("Optimistic Lock Valid: " +  lock.validate(stamp));
+			   Thread.sleep(2000);
+			   System.out.println("Optimistic Lock Valid: " +  lock.validate(stamp));
+		   } catch (InterruptedException e) {
+			   System.out.println("err");
+		   } finally {
+		       lock.unlock(stamp);
+		   }
+		});
 
-        Runnable readTask = () -> {
-            long stamp = lock.readLock();
-            System.out.println("readTask: " + Thread.currentThread().getName());
-            try {
-                System.out.println(list.get(0));
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                System.out.println("err");
-            } finally {
-                System.out.println(stamp);
-                lock.unlockRead(stamp);
-            }
-        };
+		executorService.submit(() -> {
+			long stamp = lock.writeLock();
+			try {
+				System.out.println("Write Lock Acquired");
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				System.out.println("err");
+			} finally {
+				System.out.println("Write Done");
+				lock.unlock(stamp);
+			}
+		});
 
-        executorService.submit(writeTask);
-        executorService.submit(readTask);
-        executorService.submit(readTask);
 
-        executorService.shutdown();
-    }
+		executorService.shutdown();
+	}
 }
