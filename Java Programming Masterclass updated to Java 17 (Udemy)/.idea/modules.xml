@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java Programming Masterclass updated to Java 17 (Udemy).iml" filepath="$PROJECT_DIR$/.idea/Java Programming Masterclass updated to Java 17 (Udemy).iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-abstraction/java-abstraction.iml" filepath="$PROJECT_DIR$/java-abstraction/java-abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-interfaces/java-interfaces.iml" filepath="$PROJECT_DIR$/java-interfaces/java-interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-networking/java-networking.iml" filepath="$PROJECT_DIR$/java-networking/java-networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-polymorphism/java-polymorphism.iml" filepath="$PROJECT_DIR$/java-polymorphism/java-polymorphism.iml" />
+    </modules>
+  </component>
+</project>

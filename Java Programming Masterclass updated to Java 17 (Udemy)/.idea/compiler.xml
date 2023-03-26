@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-networking" />
+        <module name="java-interfaces" />
+        <module name="java-polymorphism" />
+        <module name="java-abstraction" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-abstraction" target="17" />
+      <module name="java-interfaces" target="17" />
+      <module name="java-networking" target="17" />
+      <module name="java-polymorphism" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-enocding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-abstraction" options="" />
+      <module name="java-interfaces" options="" />
+      <module name="java-networking" options="" />
+      <module name="java-polymorphism" options="" />
+    </option>
+  </component>
+</project>
