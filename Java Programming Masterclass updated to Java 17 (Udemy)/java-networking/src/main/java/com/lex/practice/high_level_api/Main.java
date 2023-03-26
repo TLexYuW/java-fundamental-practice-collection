@@ -30,6 +30,10 @@ public class Main {
             URL url3 = resolvedUri3.toURL();
             System.out.println("URL 3 = " + url3);
 
+            URI relativeURI = baseUri.relativize(resolvedUri2);
+            System.out.println("Relative URI = " + relativeURI);
+
+
 //            URI uri = new URI("hello");
             /*
             System.out.println("Scheme = " + resolvedUri.getScheme());
