@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/java-time/pom.xml" />
+        <option value="$PROJECT_DIR$/java-ocp-11/pom.xml" />
+        <option value="$PROJECT_DIR$/java-generics/pom.xml" />
+        <option value="$PROJECT_DIR$/java-reflection/pom.xml" />
+        <option value="$PROJECT_DIR$/java-enumeration/pom.xml" />
+        <option value="$PROJECT_DIR$/java-jvm-learning/pom.xml" />
+        <option value="$PROJECT_DIR$/java-io-collection/pom.xml" />
+        <option value="$PROJECT_DIR$/java-bro-code-tutorial/java-tutorial/pom.xml" />
+        <option value="$PROJECT_DIR$/java-unsorting-practice/pom.xml" />
+        <option value="$PROJECT_DIR$/java-collections-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/java-functional-programming-example/pom.xml" />
+        <option value="$PROJECT_DIR$/java-difference-comparison-collections/pom.xml" />
+        <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-interfaces/pom.xml" />
+        <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-networking/pom.xml" />
+        <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-abstraction/pom.xml" />
+        <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-polymorphism/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK" />
+</project>

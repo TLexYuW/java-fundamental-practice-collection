@@ -1,0 +1,17 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÊŒùý
+V	java:S125"<This block of commented-out lines of code should be removed.(×ô“¸üÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ
+Q	java:S125#"<This block of commented-out lines of code should be removed.(ºì‰«
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ÙŽ½’
+V	java:S125'"<This block of commented-out lines of code should be removed.(½ëøÎúÿÿÿÿ
+N
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Íž
+Q
+java:S1128";Remove this unused import 'java.util.function.IntConsumer'.(æ ¹
+O
+java:S1128"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶
+S
+java:S1128"=Remove this unused import 'java.util.function.ToIntFunction'.(§÷Ù
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
