@@ -1,7 +1,9 @@
 # Ref
 ## Free Learning Source 
 - [Coding with John](https://www.youtube.com/@CodingWithJohn)
-  - [java-reflection](java-reflection) - [Link](https://youtu.be/bhhMJSKNCQY)
+  - [java-reflection](java-reflection) - [Go To](https://youtu.be/bhhMJSKNCQY)
+  - [java-generics](java-generics) - [Go To](https://youtu.be/K1iu1kXkVoA)
+
 - https://www.jyt0532.com/toc/
   - [java-jvm-learning](java-jvm-learning)
 - [Java Guide.cn](https://javaguide.cn/home.html)
@@ -19,7 +21,6 @@
 ## Unsorted
 - [java-functional-programming-example](java-functional-programming-example)
 - [java-difference-comparison-collections](java-difference-comparison-collections)
-- [java-generics](java-generics)
 - [java-ocp-11](java-ocp-11)
 - [java-time](java-time)
 - [java-unsorting-practice](java-unsorting-practice)

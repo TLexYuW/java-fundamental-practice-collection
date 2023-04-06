@@ -1,6 +1,4 @@
-package com.lex;
-
-import java.util.List;
+package com.lex.examples.codingwithjohn;
 
 public class Main {
     public static void main(String[] args) {

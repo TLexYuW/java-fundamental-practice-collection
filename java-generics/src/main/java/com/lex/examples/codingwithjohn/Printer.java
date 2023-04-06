@@ -1,4 +1,4 @@
-package com.lex;
+package com.lex.examples.codingwithjohn;
 
 public class Printer<T> {
 
