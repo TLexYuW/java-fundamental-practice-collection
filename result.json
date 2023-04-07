@@ -1,0 +1,340 @@
+[
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "com.lex.StringConnectTest.testStringAdd",
+        "mode" : "avgt",
+        "threads" : 4,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\arplanet\\.jdks\\temurin-17.0.5\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\IntelliJ IDEA 2022.3.1\\lib\\idea_rt.jar=58659:D:\\IntelliJ IDEA 2022.3.1\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.5+8",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 133.95003247855155,
+            "scoreError" : 3.2638568234161554,
+            "scoreConfidence" : [
+                130.6861756551354,
+                137.2138893019677
+            ],
+            "scorePercentiles" : {
+                "0.0" : 132.79397809336436,
+                "50.0" : 134.09980997077608,
+                "90.0" : 134.87753477341957,
+                "95.0" : 134.87753477341957,
+                "99.0" : 134.87753477341957,
+                "99.9" : 134.87753477341957,
+                "99.99" : 134.87753477341957,
+                "99.999" : 134.87753477341957,
+                "99.9999" : 134.87753477341957,
+                "100.0" : 134.87753477341957
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    132.79397809336436,
+                    134.09980997077608,
+                    134.56018007624797,
+                    133.41865947894976,
+                    134.87753477341957
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "com.lex.StringConnectTest.testStringAdd",
+        "mode" : "avgt",
+        "threads" : 4,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\arplanet\\.jdks\\temurin-17.0.5\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\IntelliJ IDEA 2022.3.1\\lib\\idea_rt.jar=58659:D:\\IntelliJ IDEA 2022.3.1\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.5+8",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 1121.8631572210181,
+            "scoreError" : 55.31371841308821,
+            "scoreConfidence" : [
+                1066.5494388079298,
+                1177.1768756341064
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1110.0054831967104,
+                "50.0" : 1115.2072774794585,
+                "90.0" : 1146.218822024212,
+                "95.0" : 1146.218822024212,
+                "99.0" : 1146.218822024212,
+                "99.9" : 1146.218822024212,
+                "99.99" : 1146.218822024212,
+                "99.999" : 1146.218822024212,
+                "99.9999" : 1146.218822024212,
+                "100.0" : 1146.218822024212
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    1146.218822024212,
+                    1115.2072774794585,
+                    1115.0548876543894,
+                    1110.0054831967104,
+                    1122.8293157503203
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "com.lex.StringConnectTest.testStringAdd",
+        "mode" : "avgt",
+        "threads" : 4,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\arplanet\\.jdks\\temurin-17.0.5\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\IntelliJ IDEA 2022.3.1\\lib\\idea_rt.jar=58659:D:\\IntelliJ IDEA 2022.3.1\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.5+8",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 3544.2615276192273,
+            "scoreError" : 199.87658102285096,
+            "scoreConfidence" : [
+                3344.3849465963763,
+                3744.1381086420784
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3499.0418529882563,
+                "50.0" : 3527.974395172957,
+                "90.0" : 3632.2122250128677,
+                "95.0" : 3632.2122250128677,
+                "99.0" : 3632.2122250128677,
+                "99.9" : 3632.2122250128677,
+                "99.99" : 3632.2122250128677,
+                "99.999" : 3632.2122250128677,
+                "99.9999" : 3632.2122250128677,
+                "100.0" : 3632.2122250128677
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3517.2116718653583,
+                    3499.0418529882563,
+                    3632.2122250128677,
+                    3544.8674930566963,
+                    3527.974395172957
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "com.lex.StringConnectTest.testStringBuilderAdd",
+        "mode" : "avgt",
+        "threads" : 4,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\arplanet\\.jdks\\temurin-17.0.5\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\IntelliJ IDEA 2022.3.1\\lib\\idea_rt.jar=58659:D:\\IntelliJ IDEA 2022.3.1\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.5+8",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 46.596611195510675,
+            "scoreError" : 3.0048167724274006,
+            "scoreConfidence" : [
+                43.59179442308327,
+                49.60142796793808
+            ],
+            "scorePercentiles" : {
+                "0.0" : 45.60060469412218,
+                "50.0" : 46.537769608626554,
+                "90.0" : 47.74483471186279,
+                "95.0" : 47.74483471186279,
+                "99.0" : 47.74483471186279,
+                "99.9" : 47.74483471186279,
+                "99.99" : 47.74483471186279,
+                "99.999" : 47.74483471186279,
+                "99.9999" : 47.74483471186279,
+                "100.0" : 47.74483471186279
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    45.60060469412218,
+                    46.30757804058988,
+                    46.537769608626554,
+                    47.74483471186279,
+                    46.792268922351994
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "com.lex.StringConnectTest.testStringBuilderAdd",
+        "mode" : "avgt",
+        "threads" : 4,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\arplanet\\.jdks\\temurin-17.0.5\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\IntelliJ IDEA 2022.3.1\\lib\\idea_rt.jar=58659:D:\\IntelliJ IDEA 2022.3.1\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.5+8",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 217.87237603282256,
+            "scoreError" : 11.887926005356741,
+            "scoreConfidence" : [
+                205.9844500274658,
+                229.7603020381793
+            ],
+            "scorePercentiles" : {
+                "0.0" : 215.55113129398936,
+                "50.0" : 216.8442966844296,
+                "90.0" : 223.29961054821354,
+                "95.0" : 223.29961054821354,
+                "99.0" : 223.29961054821354,
+                "99.9" : 223.29961054821354,
+                "99.99" : 223.29961054821354,
+                "99.999" : 223.29961054821354,
+                "99.9999" : 223.29961054821354,
+                "100.0" : 223.29961054821354
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    216.65209321325992,
+                    217.01474842422027,
+                    216.8442966844296,
+                    215.55113129398936,
+                    223.29961054821354
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.36",
+        "benchmark" : "com.lex.StringConnectTest.testStringBuilderAdd",
+        "mode" : "avgt",
+        "threads" : 4,
+        "forks" : 1,
+        "jvm" : "C:\\Users\\arplanet\\.jdks\\temurin-17.0.5\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:D:\\IntelliJ IDEA 2022.3.1\\lib\\idea_rt.jar=58659:D:\\IntelliJ IDEA 2022.3.1\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "17.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "17.0.5+8",
+        "warmupIterations" : 3,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 426.9536395947178,
+            "scoreError" : 60.926393698307706,
+            "scoreConfidence" : [
+                366.0272458964101,
+                487.8800332930255
+            ],
+            "scorePercentiles" : {
+                "0.0" : 409.870736394219,
+                "50.0" : 424.7246593117214,
+                "90.0" : 452.42574757016973,
+                "95.0" : 452.42574757016973,
+                "99.0" : 452.42574757016973,
+                "99.9" : 452.42574757016973,
+                "99.99" : 452.42574757016973,
+                "99.999" : 452.42574757016973,
+                "99.9999" : 452.42574757016973,
+                "100.0" : 452.42574757016973
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    428.16280588515366,
+                    452.42574757016973,
+                    419.5842488123253,
+                    409.870736394219,
+                    424.7246593117214
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

@@ -1,9 +1,10 @@
 # Ref
-## Free Learning Source 
+## Free Open Source 
 - [Coding with John](https://www.youtube.com/@CodingWithJohn)
-  - [java-reflection](java-reflection) - [Go To](https://youtu.be/bhhMJSKNCQY)
-  - [java-generics](java-generics) - [Go To](https://youtu.be/K1iu1kXkVoA)
-
+  - [java-reflection](java-reflection)
+    - [Go To](https://youtu.be/bhhMJSKNCQY)
+  - [java-generics](java-generics)
+    - [Go To](https://youtu.be/K1iu1kXkVoA)
 - https://www.jyt0532.com/toc/
   - [java-jvm-learning](java-jvm-learning)
 - [Java Guide.cn](https://javaguide.cn/home.html)
@@ -14,6 +15,9 @@
   - [java-difference-comparison-collections](java-difference-comparison-collections)
 - [java-collections-examples](java-collections-examples)
   - [README.md](java-collections-examples%2FREADME.md)
+- Medium Post
+  - [java-generics](java-generics)
+    - [Go To](https://blog.devgenius.io/5-best-practices-to-get-familiar-with-java-generics-25b10e27a3c)
 
 ## Udmey
 - [Java Programming Masterclass updated to Java 17 (Udemy)](Java%20Programming%20Masterclass%20updated%20to%20Java%2017%20%28Udemy%29)
@@ -24,3 +28,4 @@
 - [java-ocp-11](java-ocp-11)
 - [java-time](java-time)
 - [java-unsorting-practice](java-unsorting-practice)
+- [java-jmh](java-jmh)

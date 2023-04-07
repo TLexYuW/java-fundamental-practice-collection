@@ -3,22 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Fundamental-Practice-Collections.iml" filepath="$PROJECT_DIR$/.idea/Java-Fundamental-Practice-Collections.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-abstraction/java-abstraction.iml" filepath="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-abstraction/java-abstraction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-collections-examples/java-collections-examples.iml" filepath="$PROJECT_DIR$/java-collections-examples/java-collections-examples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-difference-comparison-collections/java-difference-comparison-collections.iml" filepath="$PROJECT_DIR$/java-difference-comparison-collections/java-difference-comparison-collections.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-enumeration/java-enumeration.iml" filepath="$PROJECT_DIR$/java-enumeration/java-enumeration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-functional-programming-example/java-functional-programming-example.iml" filepath="$PROJECT_DIR$/java-functional-programming-example/java-functional-programming-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-generics/java-generics.iml" filepath="$PROJECT_DIR$/java-generics/java-generics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-interfaces/java-interfaces.iml" filepath="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-interfaces/java-interfaces.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-io-collection/java-io-collection.iml" filepath="$PROJECT_DIR$/java-io-collection/java-io-collection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-jvm-learning/java-jvm-learning.iml" filepath="$PROJECT_DIR$/java-jvm-learning/java-jvm-learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-networking/java-networking.iml" filepath="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-networking/java-networking.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-ocp-11/java-ocp-11.iml" filepath="$PROJECT_DIR$/java-ocp-11/java-ocp-11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-polymorphism/java-polymorphism.iml" filepath="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-polymorphism/java-polymorphism.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-reflection/java-reflection.iml" filepath="$PROJECT_DIR$/java-reflection/java-reflection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-time/java-time.iml" filepath="$PROJECT_DIR$/java-time/java-time.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-bro-code-tutorial/java-tutorial/java-tutorial.iml" filepath="$PROJECT_DIR$/java-bro-code-tutorial/java-tutorial/java-tutorial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-unsorting-practice/java-unsorting-practice.iml" filepath="$PROJECT_DIR$/java-unsorting-practice/java-unsorting-practice.iml" />
     </modules>
   </component>
 </project>
