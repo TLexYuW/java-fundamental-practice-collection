@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * @version : 0.0.1
  * @date : 2023/4/7
  */
-@BenchmarkMode(Mode.AverageTime)
+@BenchmarkMode(Mode.Throughput)
 @Warmup(iterations = 3, time = 1)
 @Measurement(iterations = 5, time = 5)
 @Threads(4)
