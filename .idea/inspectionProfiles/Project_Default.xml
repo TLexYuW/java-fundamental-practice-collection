@@ -2,7 +2,7 @@
   <profile version="1.0">
     <option name="myName" value="Project Default" />
     <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="ADDITIONAL_TAGS" value="date,last_modified_by_user_on_date,last_modified_date" />
+      <option name="ADDITIONAL_TAGS" value="date,description,last_modified_date" />
     </inspection_tool>
   </profile>
 </component>

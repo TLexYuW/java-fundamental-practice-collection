@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/java-jmh/pom.xml" />
         <option value="$PROJECT_DIR$/java-time/pom.xml" />
         <option value="$PROJECT_DIR$/java-ocp-11/pom.xml" />
         <option value="$PROJECT_DIR$/java-generics/pom.xml" />
@@ -20,9 +20,8 @@
         <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-networking/pom.xml" />
         <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-abstraction/pom.xml" />
         <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-polymorphism/pom.xml" />
-        <option value="$PROJECT_DIR$/java-jmh/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="temurin-17" project-jdk-type="JavaSDK" />
 </project>

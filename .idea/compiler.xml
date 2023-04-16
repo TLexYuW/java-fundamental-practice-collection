@@ -25,27 +25,24 @@
         <module name="java-abstraction" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="-enocding utf-8" />
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="java-abstraction" options="" />
-      <module name="java-collections-examples" options="" />
-      <module name="java-difference-comparison-collections" options="" />
-      <module name="java-enumeration" options="" />
-      <module name="java-functional-programming-example" options="" />
-      <module name="java-generics" options="" />
-      <module name="java-interfaces" options="" />
-      <module name="java-io-collection" options="" />
-      <module name="java-jmh" options="" />
-      <module name="java-jvm-learning" options="" />
-      <module name="java-networking" options="" />
-      <module name="java-ocp-11" options="" />
-      <module name="java-polymorphism" options="" />
-      <module name="java-reflection" options="" />
-      <module name="java-time" options="" />
-      <module name="java-tutorial" options="" />
-      <module name="java-unsorting-practice" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="java-abstraction" target="17" />
+      <module name="java-collections-examples" target="17" />
+      <module name="java-difference-comparison-collections" target="17" />
+      <module name="java-enumeration" target="17" />
+      <module name="java-functional-programming-example" target="11" />
+      <module name="java-generics" target="11" />
+      <module name="java-interfaces" target="17" />
+      <module name="java-io-collection" target="17" />
+      <module name="java-jmh" target="1.5" />
+      <module name="java-jvm-learning" target="17" />
+      <module name="java-networking" target="17" />
+      <module name="java-ocp-11" target="17" />
+      <module name="java-polymorphism" target="17" />
+      <module name="java-reflection" target="17" />
+      <module name="java-time" target="17" />
+      <module name="java-tutorial" target="17" />
+      <module name="java-unsorting-practice" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
