@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/java-collections-examples/pom.xml" />
         <option value="$PROJECT_DIR$/java-functional-programming-example/pom.xml" />
         <option value="$PROJECT_DIR$/java-difference-comparison-collections/pom.xml" />
+        <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-io-nio/pom.xml" />
         <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-interfaces/pom.xml" />
         <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-networking/pom.xml" />
         <option value="$PROJECT_DIR$/Java Programming Masterclass updated to Java 17 (Udemy)/java-abstraction/pom.xml" />
@@ -23,5 +24,5 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="temurin-17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK" />
 </project>
