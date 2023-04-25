@@ -11,8 +11,8 @@
         <module name="java-io-nio" />
         <module name="java-time" />
         <module name="java-interfaces" />
-        <module name="java-unsorting-practice" />
         <module name="java-big-o" />
+        <module name="java-unsorting-practice" />
         <module name="java-reflection" />
         <module name="java-difference-comparison-collections" />
         <module name="java-polymorphism" />
@@ -24,32 +24,9 @@
         <module name="java-generics" />
         <module name="java-jmh" />
         <module name="java-jvm-learning" />
+        <module name="java-cdi" />
         <module name="java-abstraction" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="-enocding utf-8" />
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="java-abstraction" options="" />
-      <module name="java-big-o" options="" />
-      <module name="java-collections-examples" options="" />
-      <module name="java-difference-comparison-collections" options="" />
-      <module name="java-enumeration" options="" />
-      <module name="java-functional-programming-example" options="" />
-      <module name="java-generics" options="" />
-      <module name="java-interfaces" options="" />
-      <module name="java-io-collection" options="" />
-      <module name="java-io-nio" options="" />
-      <module name="java-jmh" options="" />
-      <module name="java-jvm-learning" options="" />
-      <module name="java-networking" options="" />
-      <module name="java-ocp-11" options="" />
-      <module name="java-polymorphism" options="" />
-      <module name="java-reflection" options="" />
-      <module name="java-time" options="" />
-      <module name="java-tutorial" options="" />
-      <module name="java-unsorting-practice" options="" />
-    </option>
   </component>
 </project>
