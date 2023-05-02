@@ -11,6 +11,7 @@
         <module name="java-io-nio" />
         <module name="java-time" />
         <module name="java-interfaces" />
+        <module name="java-version-new-features" />
         <module name="java-big-o" />
         <module name="java-unsorting-practice" />
         <module name="java-reflection" />
