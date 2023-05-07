@@ -16,6 +16,7 @@
         <module name="java-unsorting-practice" />
         <module name="java-reflection" />
         <module name="java-difference-comparison-collections" />
+        <module name="java-solid-examples" />
         <module name="java-polymorphism" />
         <module name="java-ocp-11" />
         <module name="java-tutorial" />
