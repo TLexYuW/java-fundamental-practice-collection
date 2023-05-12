@@ -26,9 +26,11 @@
         <module name="java-generics" />
         <module name="java-jmh" />
         <module name="java-jvm-learning" />
-        <module name="java-cdi" />
         <module name="java-abstraction" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-cdi" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
