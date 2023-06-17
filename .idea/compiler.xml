@@ -29,5 +29,8 @@
         <module name="java-abstraction" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-cdi" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
