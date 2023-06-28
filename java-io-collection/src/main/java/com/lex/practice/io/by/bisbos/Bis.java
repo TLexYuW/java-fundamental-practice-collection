@@ -10,7 +10,7 @@ import java.io.FileInputStream;
  */
 public class Bis {
 	public static void main(String[] args) {
-		try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream("bosOutput.txt"))) {
+		try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream("z-io-folder/bosOutput.txt"))) {
 			String result = new String(bis.readAllBytes());
 			System.out.println(result);
 		} catch (Exception ex) {
