@@ -7,3 +7,5 @@
   - https://www.programiz.com/java-programming/concurrenthashmap
 - Set
   - https://youtu.be/QvHBHuuddYk
+- Vector
+  - https://youtu.be/s2h_lYgbkPI
