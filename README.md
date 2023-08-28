@@ -20,7 +20,9 @@
   - [Modern Java - Top Features of Java 9 to 17](https://youtu.be/zNaUasfC84Y)
 - [java-solid-examples](java-solid-examples)
   - [SOLID Design Principles in java with Example - JavaTechie](https://youtu.be/BM_lSZPMClo) & [medium.com/@javatechie](https://medium.com/@javatechie/solid-design-principle-java-ae96a48db97)
-  
+- [java-ds-al](java-ds-al)
+  - [Data Structures and Algorithms in Java full course](https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d)
+ 
 ## Udmey
 - [Java Programming Masterclass updated to Java 17 (Udemy)](Java%20Programming%20Masterclass%20updated%20to%20Java%2017%20%28Udemy%29)
 
