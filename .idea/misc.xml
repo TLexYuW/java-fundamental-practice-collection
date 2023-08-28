@@ -35,6 +35,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/java-cdi/pom.xml" />
+        <option value="$PROJECT_DIR$/java-ds-al/pom.xml" />
       </set>
     </option>
   </component>

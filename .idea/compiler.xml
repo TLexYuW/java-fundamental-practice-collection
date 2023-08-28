@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-ds-al" />
         <module name="java-functional-programming-example" />
         <module name="java-enumeration" />
         <module name="java-io-nio" />
@@ -32,6 +31,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-cdi" target="17" />
+      <module name="java-ds-al" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
