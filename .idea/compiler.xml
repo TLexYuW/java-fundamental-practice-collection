@@ -22,6 +22,7 @@
         <module name="java-tutorial" />
         <module name="java-collections-examples" />
         <module name="java-io-collection" />
+        <module name="java-oop-practices" />
         <module name="java-networking" />
         <module name="java-generics" />
         <module name="java-jmh" />

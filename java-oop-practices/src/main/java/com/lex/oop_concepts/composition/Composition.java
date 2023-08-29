@@ -1,4 +1,4 @@
-package com.lex.practice.oop_concepts.composition;
+package com.lex.oop_concepts.composition;
 
 import java.util.ArrayList;
 import java.util.List;

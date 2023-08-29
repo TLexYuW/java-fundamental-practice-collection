@@ -1,4 +1,4 @@
-package com.lex.practice.oop_concepts;
+package com.lex.oop_concepts;
 
 /**
  * @author : Lex Yu

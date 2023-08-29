@@ -1,4 +1,4 @@
-package com.lex.practice.oop_concepts.association;
+package com.lex.oop_concepts.association;
 
 import java.util.HashSet;
 import java.util.Set;

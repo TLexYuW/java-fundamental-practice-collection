@@ -1,4 +1,4 @@
-package com.lex.practice.oop_concepts.aggregation;
+package com.lex.oop_concepts.aggregation;
 
 import java.util.ArrayList;
 import java.util.List;
