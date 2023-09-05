@@ -1,4 +1,4 @@
-package com.lex.oop_2.abstraction.interface_example;
+package com.lex.oop_refresh.abstraction.interface_example;
 
 /**
  * @author : Lex Yu

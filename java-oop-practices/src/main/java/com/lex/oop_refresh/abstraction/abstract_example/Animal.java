@@ -1,4 +1,4 @@
-package com.lex.oop_2.abstraction.abstract_example;
+package com.lex.oop_refresh.abstraction.abstract_example;
 
 /**
  * @author : Lex Yu
