@@ -7,10 +7,10 @@ import java.util.List;
  * @author : Lex Yu
  * @date : 2023/9/5
  */
-public class CSVExport {
+public class PDFExport {
 	public File export(List<Object> metadata) {
-		System.out.println("Exporting data to CSV...");
-		File outputCSV = null;
-		return outputCSV;
+		System.out.println("Exporting data to PDF...");
+		File outputPDF = null;
+		return outputPDF;
 	}
 }
