@@ -2,8 +2,15 @@ package com.lex.version_9;
 
 /**
  * @author : Lex Yu
- * @version : 0.0.1
- * @date : 2023/5/25
+ * JShell
+ * Modules
+ * Immutable Collection
+ * Interface - private method
+ * try-with-resources enhancement
+ * Stream & Optional enhancement
+ * ProcessHandle API
+ * Reactive Streams
+ * MethodHandle, VarHandle
  */
 public class Main {
 	public static void main(String[] args) {
