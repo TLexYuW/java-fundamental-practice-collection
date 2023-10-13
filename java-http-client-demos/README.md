@@ -1,0 +1,9 @@
+- HttpURLConnection
+- java.net.http.HttpClient
+- Apache HttpClient
+- okHttp
+- Retrofit
+- Spring ( Check `spring-boot-http-client-demo` Repository)
+  - RestTemplate
+  - OpenFeign
+  - WebClient
