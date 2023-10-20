@@ -1,4 +1,4 @@
-package com.lex.practice.con_hashmap;
+package com.lex.practice.map;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @version : 0.0.1
  * @date : 2023/5/23
  */
-public class SecMain {
+public class Demo2 {
 	public static void main(String[] args) {
 		ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
 		map.put("UserA", 20);

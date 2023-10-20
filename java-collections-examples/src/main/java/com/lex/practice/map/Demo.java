@@ -1,8 +1,7 @@
-package com.lex.practice.con_hashmap;
+package com.lex.practice.map;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -10,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @version : 0.0.1
  * @date : 2023/5/22
  */
-public class Main {
+public class Demo {
 	public static void main(String[] args) {
 		// Creating a hashmap of even numbers
 		HashMap<String, Integer> evenNumbers = new HashMap<>();
