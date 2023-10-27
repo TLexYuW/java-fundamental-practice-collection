@@ -20,7 +20,10 @@
   - [Modern Java - Top Features of Java 9 to 17](https://youtu.be/zNaUasfC84Y)
 - [java-solid-examples](java-solid-examples)
   - [SOLID Design Principles in java with Example - JavaTechie](https://youtu.be/BM_lSZPMClo) & [medium.com/@javatechie](https://medium.com/@javatechie/solid-design-principle-java-ae96a48db97)
-
+- [java-reactive-programming-demos](java-reactive-programming-demos)
+  - Java Brains
+    - [GitHub Repo](https://github.com/koushikkothagal/reactive-java-workshop)
+    - https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYPR2oH7kgElMYZhJd4vOGI
 ## Udmey
 - [Java Programming Masterclass updated to Java 17 (Udemy)](Java%20Programming%20Masterclass%20updated%20to%20Java%2017%20%28Udemy%29)
 
