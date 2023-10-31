@@ -11,19 +11,25 @@ public class Exercise2 {
         // Print all numbers in the ReactiveSources.intNumbersFlux stream
         // TODO: Write code here
 
-        ReactiveSources.intNumbersFlux()
-                .doOnNext(System.out::println)
-                .subscribe();
+//        ReactiveSources.intNumbersFlux()
+//                .doOnNext(System.out::println)
+//                .subscribe();
 
-        ReactiveSources.intNumbersFlux().subscribe(integer -> System.out.println(integer));
+        ReactiveSources.intNumbersFlux().subscribe(integer -> {
+            System.out.println("Thread: " + Thread.currentThread().getName());
+            System.out.println(integer);
+        });
 
         // Print all users in the ReactiveSources.userFlux stream
         // TODO: Write code here
-        ReactiveSources.userFlux()
-                .doOnNext(System.out::println)
-                .subscribe();
+//        ReactiveSources.userFlux()
+//                .doOnNext(System.out::println)
+//                .subscribe();
 
-        ReactiveSources.userFlux().subscribe(integer -> System.out.println(integer));
+        ReactiveSources.userFlux().subscribe(integer -> {
+            System.out.println("Thread: " + Thread.currentThread().getName());
+            System.out.println(integer);
+        });
 
 
         System.out.println("Press a key to end");

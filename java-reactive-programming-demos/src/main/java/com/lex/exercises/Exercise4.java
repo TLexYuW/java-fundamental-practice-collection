@@ -10,6 +10,8 @@ public class Exercise4 {
 
         // Print the value from intNumberMono when it emits
         // TODO: Write code here
+        ReactiveSources.intNumberMono()
+
 
         // Get the value from the Mono into an integer variable
         // TODO: Write code here
