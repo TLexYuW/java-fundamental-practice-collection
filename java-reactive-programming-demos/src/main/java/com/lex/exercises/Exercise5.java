@@ -37,12 +37,16 @@ public class Exercise5 {
 }
 
 class MySubscriber<T> extends BaseSubscriber<T> {
+
     public void hookOnSubscribe(Subscription subscription) {
         System.out.println("Subscribe happened");
         request(1);
     }
 
     public void hookOnNext(T value) {
+//        if (!notOverwhelmed) {
+//            System.out.println(value.toString() + " received");
+//        }
         System.out.println(value.toString() + " received");
         request(500000000);
     }
