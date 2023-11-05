@@ -74,4 +74,10 @@ public class ReactiveSources {
                 .just(1, 2, 1, 1, 3, 2, 4, 5, 1)
                 .delayElements(Duration.ofSeconds(1));
     }
+
+    public static Flux<Integer> intNumbersFluxWithRepeat2() {
+        return Flux
+                .just(1, 2, 2, 2, 1, 1, 3, 2, 4, 5, 1)
+                .delayElements(Duration.ofSeconds(1));
+    }
 }
