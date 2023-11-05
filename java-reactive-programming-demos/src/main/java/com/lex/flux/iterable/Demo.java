@@ -9,8 +9,7 @@ import java.util.Arrays;
  */
 public class Demo {
 	public static void main(String[] args) {
-		Flux.fromIterable(Arrays.asList(1,2,3,4))
-				.subscribe(System.out::println);
+		Flux.fromIterable(Arrays.asList(1,2,3,4)).subscribe(System.out::println);
 	}
 
 }
