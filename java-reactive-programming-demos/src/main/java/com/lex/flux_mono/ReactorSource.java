@@ -1,0 +1,34 @@
+package com.lex.flux_mono;
+
+import reactor.core.publisher.Flux;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+/**
+ * @author : Lex Yu
+ */
+public class ReactorSource {
+
+    public static Flux<Integer> integerFlux() {
+        return Flux.just(1, 2, 3, 4, 5);
+    }
+
+    public static Flux<String> stringFlux() {
+        return Flux.just("Hello", ", ", "World", "!");
+    }
+
+    public static Integer[] integers() {
+        return new Integer[]{1, 2, 3, 4, 5};
+    }
+
+    public static List<Integer> integerList() {
+        return Arrays.asList(integers());
+    }
+
+    public static Stream<Integer> integerStream() {
+        return Arrays.stream(integers());
+    }
+
+}

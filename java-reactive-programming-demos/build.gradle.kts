@@ -11,6 +11,11 @@ repositories {
 
 dependencies {
     implementation("io.projectreactor:reactor-core:3.5.11")
+
+//    implementation("io.reactivex.rxjava3:rxjava:3.1.8")
+//    implementation("io.reactivex.rxjava2:rxjava:2.2.21")
+    implementation("io.reactivex:rxjava:1.3.8")
+
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
