@@ -1,4 +1,4 @@
-package com.lex.fuctionalinterface;
+package com.lex.unsorted.fuctionalinterface;
 
 import java.util.List;
 import java.util.function.Supplier;

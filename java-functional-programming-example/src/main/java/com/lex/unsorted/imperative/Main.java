@@ -1,10 +1,9 @@
-package com.lex.imperative;
+package com.lex.unsorted.imperative;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-import static com.lex.imperative.Main.Gender.*;
+import static com.lex.unsorted.imperative.Main.Gender.*;
 
 public class Main {
     public static void main(String[] args) {

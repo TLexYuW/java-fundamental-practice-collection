@@ -1,7 +1,7 @@
-package com.lex.combinatorpattern;
+package com.lex.unsorted.combinatorpattern;
 
 import java.time.LocalDate;
-import static com.lex.combinatorpattern.CustomerRegistrationValidator.*;
+import static com.lex.unsorted.combinatorpattern.CustomerRegistrationValidator.*;
 
 public class Main {
     public static void main(String[] args) {

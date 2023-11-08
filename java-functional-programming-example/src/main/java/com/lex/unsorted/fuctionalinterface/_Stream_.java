@@ -1,13 +1,8 @@
-package com.lex.fuctionalinterface;
+package com.lex.unsorted.fuctionalinterface;
 
 import java.util.List;
-import java.util.function.Function;
-import java.util.function.IntConsumer;
-import java.util.function.Predicate;
-import java.util.function.ToIntFunction;
-import java.util.stream.Collectors;
 
-import static com.lex.fuctionalinterface._Stream_.Gender.*;
+import static com.lex.unsorted.fuctionalinterface._Stream_.Gender.*;
 
 public class _Stream_ {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.lex.combinatorpattern;
+package com.lex.unsorted.combinatorpattern;
 
 import java.time.LocalDate;
 import java.time.Period;

@@ -1,4 +1,4 @@
-package com.lex.optionals;
+package com.lex.unsorted.optionals;
 
 import java.util.Optional;
 import java.util.function.Supplier;

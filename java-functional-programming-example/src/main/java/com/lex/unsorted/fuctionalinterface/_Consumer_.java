@@ -1,4 +1,4 @@
-package com.lex.fuctionalinterface;
+package com.lex.unsorted.fuctionalinterface;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;

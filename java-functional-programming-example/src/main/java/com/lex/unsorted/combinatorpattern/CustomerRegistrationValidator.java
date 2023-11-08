@@ -1,11 +1,11 @@
-package com.lex.combinatorpattern;
+package com.lex.unsorted.combinatorpattern;
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.function.Function;
 import java.util.logging.Logger;
 
-import static com.lex.combinatorpattern.CustomerRegistrationValidator.ValidationResult.*;
+import static com.lex.unsorted.combinatorpattern.CustomerRegistrationValidator.ValidationResult.*;
 
 @FunctionalInterface
 public interface CustomerRegistrationValidator

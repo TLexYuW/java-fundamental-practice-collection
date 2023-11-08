@@ -1,4 +1,6 @@
-package com.lex.exercises;
+package com.lex.model;
+
+import lombok.*;
 
 /**
  * This class is a sample custom Java type used in the exercises.
@@ -7,6 +9,7 @@ package com.lex.exercises;
  * @author koushikkothagal
  */
 
+@Builder
 public class User {
 
     private int id;

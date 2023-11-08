@@ -1,5 +1,7 @@
 package com.lex.exercises;
 
+import com.lex.model.User;
+
 import java.util.stream.Stream;
 
 /**
