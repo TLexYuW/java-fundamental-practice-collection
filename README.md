@@ -4,6 +4,7 @@
   - Java Brains
     - [GitHub Repo](https://github.com/koushikkothagal/reactive-java-workshop)
     - https://www.youtube.com/playlist?list=PLqq-6Pq4lTTYPR2oH7kgElMYZhJd4vOGI
+  - https://www.youtube.com/playlist?list=PL0Un1HNdB4jFCsHsQg2HOfO03XfECuMiw
 
 ## IO
 - [java-io-collection](java-io-collection)
