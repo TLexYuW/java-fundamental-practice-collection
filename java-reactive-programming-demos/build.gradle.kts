@@ -13,9 +13,11 @@ dependencies {
     implementation("io.projectreactor:reactor-core:3.5.11")
     testImplementation("io.projectreactor:reactor-test:3.5.11")
 
-//    implementation("io.reactivex.rxjava3:rxjava:3.1.8")
-//    implementation("io.reactivex.rxjava2:rxjava:2.2.21")
+    implementation("io.reactivex.rxjava3:rxjava:3.1.8")
+    implementation("io.reactivex.rxjava2:rxjava:2.2.21")
     implementation("io.reactivex:rxjava:1.3.8")
+
+    implementation("com.github.javafaker:javafaker:1.0.2")
 
     compileOnly("org.projectlombok:lombok:1.18.30")
     annotationProcessor ("org.projectlombok:lombok:1.18.30")

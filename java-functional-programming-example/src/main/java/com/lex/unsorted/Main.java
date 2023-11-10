@@ -18,17 +18,20 @@ public class Main {
 
 		System.out.println("Before flattening: " + listOfListsOfInts);
 
-		/* map() Still List of Lists Of Ints
-		List<Integer> listOfInts = listOfListOfInts.stream()
+		//  map() Still List of Lists Of Ints
+//		/*
+		List<List<Integer>> listOfInts1 = listOfListsOfInts.stream()
 				.map(list -> list.stream().collect(Collectors.toList()))
 				.collect(Collectors.toList());
-		 */
 
-		List<Integer> listOfInts = listOfListsOfInts.stream()
+		System.out.println("Still : " + listOfInts1);
+//		 */
+
+		List<Integer> listOfInts2 = listOfListsOfInts.stream()
 				.flatMap(Collection::stream)
 				.collect(Collectors.toList());
 
-		System.out.println("After flattening  : " + listOfInts);
+		System.out.println("After flattening  : " + listOfInts2);
 
 
 	}
