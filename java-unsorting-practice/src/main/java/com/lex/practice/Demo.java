@@ -13,6 +13,6 @@ public class Demo {
 		System.out.println(str[1].isEmpty());
 		System.out.println(str2 != null);
 
-
+		System.out.println("Demo Main Entry...");
 	}
 }
