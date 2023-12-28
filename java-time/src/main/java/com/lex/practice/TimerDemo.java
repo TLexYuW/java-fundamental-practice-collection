@@ -10,6 +10,7 @@ import java.util.TimerTask;
  */
 public class TimerDemo {
 	public static void main(String[] args) {
+
 		// Timer :
 		// A facility for threads to schedule tasks
 		// for future execution in a background thread
@@ -43,13 +44,13 @@ public class TimerDemo {
 		date.set(Calendar.MILLISECOND, 0);
 
 		Calendar date2 = Calendar.getInstance();
-		date.set(Calendar.YEAR, 2023);
-		date.set(Calendar.MONTH, Calendar.DECEMBER);
-		date.set(Calendar.DAY_OF_MONTH, 27);
-		date.set(Calendar.HOUR_OF_DAY, 18);
-		date.set(Calendar.MINUTE, 29);
-		date.set(Calendar.SECOND, 30);
-		date.set(Calendar.MILLISECOND, 0);
+		date2.set(Calendar.YEAR, 2023);
+		date2.set(Calendar.MONTH, Calendar.DECEMBER);
+		date2.set(Calendar.DAY_OF_MONTH, 28);
+		date2.set(Calendar.HOUR_OF_DAY, 9);
+		date2.set(Calendar.MINUTE, 49);
+		date2.set(Calendar.SECOND, 30);
+		date2.set(Calendar.MILLISECOND, 0);
 
 		timer.scheduleAtFixedRate(task, date2.getTime(), 1000L);
 //		timer.scheduleAtFixedRate(task, 0, 1000L);
