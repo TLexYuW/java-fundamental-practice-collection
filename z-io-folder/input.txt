@@ -1,4 +1,0 @@
-ABCDEFGHIJK
-123
-ABCDEFGhijk
-中文字
