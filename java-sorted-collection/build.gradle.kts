@@ -18,6 +18,7 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.16.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.1")
 
+    implementation("net.datafaker:datafaker:2.1.0")
 
     // https://mvnrepository.com/artifact/net.sf.py4j/py4j
     implementation("net.sf.py4j:py4j:0.10.9.7")
