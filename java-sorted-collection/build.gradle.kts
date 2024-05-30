@@ -1,4 +1,5 @@
 plugins {
+    id("groovy")
     id("java")
 }
 
@@ -22,6 +23,8 @@ dependencies {
 
     // https://mvnrepository.com/artifact/net.sf.py4j/py4j
     implementation("net.sf.py4j:py4j:0.10.9.7")
+
+    implementation(gradleApi())
 
     testImplementation("org.hamcrest:hamcrest:2.2")
     testImplementation("org.assertj:assertj-core:3.25.2")
