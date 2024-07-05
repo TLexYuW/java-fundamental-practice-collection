@@ -63,7 +63,7 @@ public class JacksonTest {
 
 		final String itemJson = new ObjectMapper().writeValueAsString(itemJBR);
 		final String userJson = new ObjectMapper().writeValueAsString(userJMR);
-		// The serialized Item object doesn’t contain a reference to the User object.
+		// The serialized Item object doesnt contain a reference to the User object.
 		System.out.println("item json = " + itemJson);
 		System.out.println("user json = " + userJson);
 		/*

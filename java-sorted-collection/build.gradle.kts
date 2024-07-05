@@ -19,6 +19,20 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.16.1")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.1")
 
+    // https://mvnrepository.com/artifact/com.alibaba/easyexcel
+    implementation("com.alibaba:easyexcel:4.0.1")
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly("org.projectlombok:lombok:1.18.34")
+    annotationProcessor ("org.projectlombok:lombok:1.18.34")
+    testCompileOnly ("org.projectlombok:lombok:1.18.34")
+    testAnnotationProcessor ("org.projectlombok:lombok:1.18.34")
+
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+//    implementation("org.apache.logging.log4j:log4j-core:2.23.1")
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+//    implementation("org.apache.logging.log4j:log4j-api:2.23.1")
+
     implementation("net.datafaker:datafaker:2.1.0")
 
     // https://mvnrepository.com/artifact/net.sf.py4j/py4j
