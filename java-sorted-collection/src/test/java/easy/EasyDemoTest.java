@@ -56,6 +56,16 @@ class EasyDemoTest {
                 .doRead();
     }
 
+    @Test
+    public void writeWithEncrypt() {
+        String fileName = "D:/Random/excel/demoWithEncrypt.xlsx";
+
+        EasyExcel.write(fileName, DemoData.class)
+                .password("123456")
+                .sheet("TestWriteExcel")
+                .doWrite(MockDataUtil.generateDemoData());
+    }
+
 
 
 
