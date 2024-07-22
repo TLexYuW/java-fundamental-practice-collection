@@ -2,6 +2,8 @@ package com.lex.practice.util.time;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Timer;
@@ -14,7 +16,16 @@ public class Main {
 
 	public static void main(String[] args) {
 //		getISOTimestamp();
-		getYYYYMMDD();
+//		getYYYYMMDD();
+		System.out.println(toDate(1723617219000L));
+
+	}
+
+	public static String toDate(long unix){
+		Instant instant = Instant.ofEpochSecond(unix);
+		ZonedDateTime zonedDateTime = instant.atZone(ZoneId.of("UTC+8"));
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+		return zonedDateTime.format(formatter);
 	}
 
 	static LocalDateTime getISOTimestamp() {
