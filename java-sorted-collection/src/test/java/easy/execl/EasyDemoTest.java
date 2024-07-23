@@ -1,4 +1,4 @@
-package easy;
+package easy.execl;
 
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelWriter;
