@@ -1,5 +1,6 @@
 package com.lex.practice.reflection.demos._1;
 
+import com.alibaba.excel.EasyExcel;
 import net.datafaker.Faker;
 
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ public class Main {
             Driver driver = Driver.builder().seq(i)
                     .id(100 + (i + 1))
                     .name(faker.name().name())
-                    .loginId(faker.random().nextLong())
+                    .loginId(faker.random().nextLong(1, 100_000_000))
                     .phone(faker.phoneNumber().cellPhone())
                     .birthday(faker.date().birthday("yyyy-MM-dd"))
                     .email(faker.internet().emailAddress())
@@ -60,5 +61,10 @@ public class Main {
 //        infoList.add(infoBuilder.build());
 
         System.out.println(infoList);
+        String file = "D:/Random/excel/infolist.xlsx";
+
+        EasyExcel.write(file, Info.class)
+                .sheet()
+                .doWrite(infoList);
     }
 }
