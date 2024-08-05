@@ -1,4 +1,4 @@
-package com.lex.practice.util.collections.maps.merge;
+package com.lex.practice.util.collections.maps.merge._01;
 
 import java.util.Arrays;
 import java.util.List;
