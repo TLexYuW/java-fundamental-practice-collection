@@ -63,16 +63,16 @@ public class DateRangeProcessor2 {
 
         List<Date> processedDates = processDateRanges(dates);
         System.out.println("results dates: " + processedDates);
-        DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-
-        for (int i = 0; i < processedDates.size(); i += 2) {
-            LocalDate start = processedDates.get(i).toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-            if (i + 1 < processedDates.size()) {
-                LocalDate end = processedDates.get(i + 1).toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-                System.out.println(start.format(outputFormatter) + "~" + end.format(outputFormatter));
-            } else {
-                System.out.println(start.format(outputFormatter));
-            }
-        }
+//        DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+//
+//        for (int i = 0; i < processedDates.size(); i += 2) {
+//            LocalDate start = processedDates.get(i).toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+//            if (i + 1 < processedDates.size()) {
+//                LocalDate end = processedDates.get(i + 1).toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+//                System.out.println(start.format(outputFormatter) + "~" + end.format(outputFormatter));
+//            } else {
+//                System.out.println(start.format(outputFormatter));
+//            }
+//        }
     }
 }
