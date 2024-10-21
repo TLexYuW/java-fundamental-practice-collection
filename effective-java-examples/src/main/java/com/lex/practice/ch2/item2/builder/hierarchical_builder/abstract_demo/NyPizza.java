@@ -10,7 +10,12 @@ public class NyPizza extends Pizza {
 
     private final Size size;
 
+    public Size getSize() {
+        return size;
+    }
+
     public static class Builder extends Pizza.Builder<Builder> {
+
         private final Size size;
 
         public Builder(Size size) {
@@ -30,10 +35,11 @@ public class NyPizza extends Pizza {
 
     public NyPizza(Builder builder) {
         super(builder);
-        size = builder.size;
+        this.size = builder.size;
     }
 
-    @Override public String toString() {
-        return "New York Pizza with " + toppings;
+    @Override
+    public String toString() {
+        return "New York Pizza with " + toppings + " (Size: " + getSize() + ")";
     }
 }

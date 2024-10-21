@@ -1,5 +1,12 @@
 package com.lex.practice.ch2.item2.builder.hierarchical_builder.interface_demo;
 
-public class Pizza {
-    
+import java.util.Set;
+
+public interface Pizza {
+
+    enum Topping {
+        HAM, MUSHROOM, ONION, PEPPER, SAUSAGE
+    }
+
+    Set<Topping> getToppings();
 }
