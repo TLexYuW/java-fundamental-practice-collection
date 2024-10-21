@@ -1,6 +1,9 @@
-package com.lex.practice.low_level_api.tcp.single.server;
+package com.lex.practice.networking.low_level_api.tcp.single.server;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 

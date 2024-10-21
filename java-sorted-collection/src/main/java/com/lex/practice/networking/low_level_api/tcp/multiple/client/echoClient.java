@@ -1,4 +1,4 @@
-package com.lex.practice.low_level_api.tcp.multiple.client;
+package com.lex.practice.networking.low_level_api.tcp.multiple.client;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

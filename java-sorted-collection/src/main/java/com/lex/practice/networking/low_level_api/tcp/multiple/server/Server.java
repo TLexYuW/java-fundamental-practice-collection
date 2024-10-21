@@ -1,6 +1,6 @@
-package com.lex.practice.low_level_api.tcp.multiple.server;
+package com.lex.practice.networking.low_level_api.tcp.multiple.server;
 
-import com.lex.practice.low_level_api.tcp.multiple.client.Echoer;
+import com.lex.practice.networking.low_level_api.tcp.multiple.client.Echoer;
 
 import java.net.ServerSocket;
 

@@ -1,4 +1,4 @@
-package com.lex.practice.low_level_api.udp.single;
+package com.lex.practice.networking.low_level_api.udp.single;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
