@@ -30,6 +30,10 @@ dependencies {
     testCompileOnly ("org.projectlombok:lombok:1.18.34")
     testAnnotationProcessor ("org.projectlombok:lombok:1.18.34")
 
+    // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
+    implementation("com.itextpdf:itextpdf:5.5.13.4")
+
+
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
 //    implementation("org.apache.logging.log4j:log4j-core:2.23.1")
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
