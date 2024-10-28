@@ -187,3 +187,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.pdf
+*.png
+*.jpg
+*.svg
+*.csv
+*.xlsx

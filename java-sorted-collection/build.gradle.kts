@@ -10,7 +10,7 @@ repositories {
     mavenCentral()
 }
 
-val itextVersion = "8.0.2"
+//val itextVersion = "8.0.2"
 
 dependencies {
 
@@ -41,18 +41,18 @@ dependencies {
 
     implementation("net.datafaker:datafaker:2.1.0")
 
-    implementation("com.itextpdf:kernel:$itextVersion")
-    implementation("com.itextpdf:layout:$itextVersion")
-    implementation("com.itextpdf:font-asian:$itextVersion")
-    implementation("com.itextpdf:forms:$itextVersion")
-    implementation("com.itextpdf:io:$itextVersion")
-    implementation("com.itextpdf:pdfa:$itextVersion")
-    implementation("com.itextpdf:barcodes:$itextVersion")
-    implementation("com.itextpdf:sign:$itextVersion")
-    implementation("com.itextpdf:svg:$itextVersion")
-    implementation("com.itextpdf:hyph:$itextVersion")
-    implementation("com.itextpdf:itextpdf:5.5.13.4")
-    implementation("com.itextpdf:html2pdf:5.0.5")
+//    implementation("com.itextpdf:kernel:$itextVersion")
+//    implementation("com.itextpdf:layout:$itextVersion")
+//    implementation("com.itextpdf:font-asian:$itextVersion")
+//    implementation("com.itextpdf:forms:$itextVersion")
+//    implementation("com.itextpdf:io:$itextVersion")
+//    implementation("com.itextpdf:pdfa:$itextVersion")
+//    implementation("com.itextpdf:barcodes:$itextVersion")
+//    implementation("com.itextpdf:sign:$itextVersion")
+//    implementation("com.itextpdf:svg:$itextVersion")
+//    implementation("com.itextpdf:hyph:$itextVersion")
+//    implementation("com.itextpdf:itextpdf:5.5.13.4")
+//    implementation("com.itextpdf:html2pdf:5.0.5")
 
     // https://mvnrepository.com/artifact/net.sf.py4j/py4j
     implementation("net.sf.py4j:py4j:0.10.9.7")
