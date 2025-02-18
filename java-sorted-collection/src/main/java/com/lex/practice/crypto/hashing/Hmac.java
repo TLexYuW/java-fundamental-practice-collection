@@ -10,8 +10,12 @@ import java.util.Base64;
 public class Hmac {
     private static final String key = "secret_key";
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws InvalidKeyException, NoSuchAlgorithmException {
+        byte[] message = generateRandomMessage();
+        String res = generateHMAC(key, message);;
+        System.out.println("Secret Key: " + key);
+        System.out.println("Message (Base64): " + Base64.getEncoder().encodeToString(message));
+        System.out.println("HMAC-SHA256 (Base64): " + res);
     }
 
     public static byte[] generateRandomMessage() {
