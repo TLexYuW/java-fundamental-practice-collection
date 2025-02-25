@@ -33,6 +33,8 @@ dependencies {
     // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
     implementation("com.itextpdf:itextpdf:5.5.13.4")
 
+    // https://mvnrepository.com/artifact/commons-validator/commons-validator
+    implementation("commons-validator:commons-validator:1.9.0")
 
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
 //    implementation("org.apache.logging.log4j:log4j-core:2.23.1")
