@@ -44,6 +44,9 @@ dependencies {
 
     implementation("net.datafaker:datafaker:2.1.0")
 
+    // https://mvnrepository.com/artifact/org.sejda.imageio/webp-imageio
+    implementation("org.sejda.imageio:webp-imageio:0.1.6")
+
 //    implementation("com.itextpdf:kernel:$itextVersion")
 //    implementation("com.itextpdf:layout:$itextVersion")
 //    implementation("com.itextpdf:font-asian:$itextVersion")
