@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
 
+    implementation("com.google.guava:guava:33.4.8-jre")
+    implementation("io.github.resilience4j:resilience4j-ratelimiter:2.3.0")
     implementation("org.apache.httpcomponents:httpclient:4.5.14")
 
     implementation("com.fasterxml.jackson.core:jackson-databind:2.16.1")
