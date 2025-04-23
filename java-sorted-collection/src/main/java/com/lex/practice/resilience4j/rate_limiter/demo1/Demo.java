@@ -1,4 +1,4 @@
-package com.lex.practice.resilience4j.rate_limiter;
+package com.lex.practice.resilience4j.rate_limiter.demo1;
 
 import io.github.resilience4j.ratelimiter.RateLimiter;
 import io.github.resilience4j.ratelimiter.RateLimiterConfig;
