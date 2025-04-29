@@ -48,6 +48,8 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.sejda.imageio/webp-imageio
     implementation("org.sejda.imageio:webp-imageio:0.1.6")
+    // https://mvnrepository.com/artifact/net.coobird/thumbnailator
+    implementation("net.coobird:thumbnailator:0.4.20")
 
 //    implementation("com.itextpdf:kernel:$itextVersion")
 //    implementation("com.itextpdf:layout:$itextVersion")

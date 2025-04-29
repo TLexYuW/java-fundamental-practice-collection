@@ -1,6 +1,7 @@
 package com.lex.practice.images.convert;
 
 import com.luciad.imageio.webp.WebPWriteParam;
+import net.coobird.thumbnailator.Thumbnails;
 
 import javax.imageio.ImageIO;
 import javax.imageio.ImageWriteParam;
@@ -11,8 +12,6 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.Locale;
 
 /**
  * @author : Lex Yu
@@ -20,15 +19,17 @@ import java.util.Locale;
 public class Demo {
     public static void main(String[] args) throws IOException {
 
-        byte[] original = readFileToBytes("imgs/1.png");
-        byte[] webpBytes = convertToWebP(original, 0.9f);
+        byte[] original = readFileToBytes("imgs/fat.png");
+        byte[] webpBytes = convertToWebP(original, 0.8f);
 
-        Path outputPath = Paths.get("output/imgs/1.webp");
+        Path outputPath = Paths.get("output/fat_compressed.webp");
         Files.createDirectories(outputPath.getParent());
 
         try (FileOutputStream fos = new FileOutputStream(outputPath.toFile())) {
             fos.write(webpBytes);
         }
+
+        convertToJPG("imgs/fat.png");
     }
 
     private static byte[] readFileToBytes(String path) throws IOException {
@@ -67,5 +68,20 @@ public class Demo {
         }
 
         return outputStream.toByteArray();
+    }
+
+
+    public static void convertToJPG(String path) throws IOException {
+        InputStream inputStream = Demo.class.getClassLoader().getResourceAsStream(path);
+
+        if (inputStream == null) {
+            throw new FileNotFoundException("Resource not found");
+        }
+
+        Thumbnails.of(inputStream)
+                .scale(1.0)
+                .outputFormat("jpg")
+                .outputQuality(0.8)
+                .toFile(new File("output/fat_compressed.jpg"));
     }
 }
