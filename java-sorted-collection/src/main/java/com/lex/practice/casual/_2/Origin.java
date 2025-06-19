@@ -1,19 +1,75 @@
 package com.lex.practice.casual._2;
 
 
-public class WrongUsage {
+public class Origin {
+    private static final String ALPHABET_SET_ORIGIN = "NgQiRkPn2pAsSuTwBy3hCjUmVrD4EtWvXxFz5bdYfZ6GaH7JcK8LeM";
+    private static final String[] STRINGS = ALPHABET_SET_ORIGIN.split("");
 
-    // ==================== CORE HASH FUNCTIONS ====================
+//    private static final String ALPHABET_SET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    private static final String ALPHABET_SET = "UVexpjls0gZkvw8K1HOAXEDQao75P6dcCrfiIMG3NL2utBSY4nmJqb9FyRTWzh";
+    // =======================================================================================================
+    // （Injective Function）
+    // Revise
+    // =======================================================================================================
 
-    private static final String HASH_STR = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    private static final String[] HASH_STR_ARR = HASH_STR.split("");
+    public static String encodeIdToBase62String(long id) {
+        int mod = (int) id % 8;
+        int prefixK = mod + 2;
+        long encodedNumber = prefixK * 10_000_000L + id;
 
-    private static Object[] getCarry(long num) {
-        int d = HASH_STR.length();
-        long q = num / d;
-        int r = (int) (num % d);
-        return new Object[]{q, HASH_STR_ARR[r]};
+        return encodeBase62(encodedNumber);
     }
+
+    public static String encodeBase62(long number) {
+        StringBuilder sb = new StringBuilder();
+        int base = ALPHABET_SET.length();
+
+        while (number > 0) {
+            int remainder = (int) (number % base);
+            sb.append(ALPHABET_SET.charAt(remainder));
+            number /= base;
+        }
+
+        return sb.reverse().toString();
+    }
+
+    public static long baseDecode(String encoded, String alphabet) {
+        long num = 0;
+        int base = alphabet.length();
+
+        for (int i = 0; i < encoded.length(); i++) {
+            char c = encoded.charAt(i);
+            int val = alphabet.indexOf(c);
+            if (val == -1) {
+                throw new IllegalArgumentException("Invalid character in encoded string: " + c);
+            }
+            num = num * base + val;
+        }
+
+        return num;
+    }
+
+    public static long decodeWithOffset(long encodedNumber) {
+        for (int mod = 0; mod < 8; mod++) {
+            int k = mod + 2;
+            long possibleNum = encodedNumber - (k * 10_000_000L);
+
+            if (possibleNum % 8 == mod) {
+                return possibleNum;
+            }
+        }
+        throw new IllegalStateException("Unable to decode: no valid mod match found");
+    }
+
+    public static long decode(String hash, String alphabet) {
+        long encodedNumber = baseDecode(hash, alphabet);
+        return decodeWithOffset(encodedNumber);
+    }
+
+
+    // =======================================================================================================
+    // Wrong naming and Confuse
+    // =======================================================================================================
 
     public static String getHash(long num) {
         StringBuilder sb = new StringBuilder();
@@ -30,6 +86,13 @@ public class WrongUsage {
         } while (q > 0);
 
         return sb.reverse().toString();
+    }
+
+    private static Object[] getCarry(long num) {
+        int d = ALPHABET_SET_ORIGIN.length();
+        long q = num / d;
+        int r = (int) (num % d);
+        return new Object[]{q, STRINGS[r]};
     }
 
     // ==================== BASIC TESTING FUNCTIONS ====================
@@ -132,12 +195,34 @@ public class WrongUsage {
         }
     }
 
+
+
     // ==================== MAIN METHOD ====================
 
     public static void main(String[] args) {
+//        test1();
+
+        String encoded = encodeIdToBase62String(1L);
+        System.out.println(encoded);
+        long numbers = baseDecode(encoded, ALPHABET_SET);
+        System.out.println(numbers);
+        long restored = decodeWithOffset(numbers);
+        System.out.println(restored);
+
+//        long end = 10L;
+//        for (long i = 1; i <= end; i ++) {
+//            String hash = getHash(i);
+//            long restored = decode(hash, ALPHABET_SET_ORIGIN);
+//            System.out.printf("原始: %d\n編碼: %s\n還原: %d\n", i, hash, restored);
+//            System.out.println(i == restored ? "✅ 正確還原" : "❌ 還原失敗");
+//        }
+
+    }
+
+    private static void test1() {
         System.out.println(getHash(1));
         System.out.println(getHash(886_132_833));
-//        findAllBoundaries();
+        findAllBoundaries();
         long boundary = findBoundary(1);
         verifyBoundary(boundary, 1);
     }
