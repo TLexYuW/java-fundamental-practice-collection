@@ -1,4 +1,4 @@
-package com.lex.practice.crypto.hashing;
+package com.lex.practice.crypto.hashing.hmac;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
