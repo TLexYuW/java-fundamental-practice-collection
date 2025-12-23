@@ -25,7 +25,8 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.alibaba/easyexcel
     implementation("com.alibaba:easyexcel:4.0.1")
-    implementation("cn.idev.excel:fastexcel:1.1.0")
+    implementation("cn.idev.excel:fastexcel:1.3.0")
+//    implementation("org.apache.fesod:fesod:version")
 
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     compileOnly("org.projectlombok:lombok:1.18.34")
