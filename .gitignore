@@ -258,3 +258,5 @@ local.properties
 #.project
 
 *.webp
+
+.claude/
